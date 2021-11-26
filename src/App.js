@@ -1,10 +1,12 @@
 import "./App.css";
-import Navbar from "./component/Navbar";
+
 import { Switch, Route } from "react-router-dom";
-import Products from "./component/Products";
-import Product from "./component/Product";
-import Cart from "./component/Cart";
-import AboutUs from "./component/AboutUs";
+
+import Navbar from "./Components/NavBar";
+import Products from "./Components/Products";
+import Product from "./Components/Product";
+import Cart from "./Components/Cart";
+import AboutUs from "./Components/AboutUs";
 
 function App() {
   return (
