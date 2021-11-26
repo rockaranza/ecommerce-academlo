@@ -55,10 +55,6 @@ const Product = () => {
                         {product.category}
                     </h4>
                     <h1 className="display-5">{product.title}</h1>
-                    {/* <p className="lead fw-bolder">
-                        Rating {product.rating && product.rating.rate} 
-                        <i className="fa fa-star"></i>
-                    </p> */}
                     <h3 className="display-6 fw-bold my-4">
                         $ {product.price}
                     </h3>
